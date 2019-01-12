@@ -1,5 +1,13 @@
 FROM node:10
 
-ADD index.js /index.js
+WORKDIR /usr/src/nodeserver
 
-ENTRYPOINT ["node", "index.js"]
+COPY package*.json ./
+COPY index.js ./
+COPY babel.config.js ./
+
+RUN npm install
+
+RUN ls
+
+CMD ["npm", "start"]
