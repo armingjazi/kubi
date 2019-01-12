@@ -1,0 +1,24 @@
+{
+  "name": "kubi",
+  "version": "1.0.0",
+  "description": "to test kubernetes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tetrohed/kubi.git"
+  },
+  "keywords": [
+    "node",
+    "kubernetes",
+    "docker"
+  ],
+  "author": "agj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tetrohed/kubi/issues"
+  },
+  "homepage": "https://github.com/tetrohed/kubi#readme"
+}
