@@ -4,7 +4,7 @@
   "description": "to test kubernetes",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,13 @@
   "bugs": {
     "url": "https://github.com/tetrohed/kubi/issues"
   },
-  "homepage": "https://github.com/tetrohed/kubi#readme"
+  "homepage": "https://github.com/tetrohed/kubi#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
 }
